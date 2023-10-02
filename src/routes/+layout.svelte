@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../app.postcss';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import Filters from '$lib/components/filters.svelte';
 </script>
 
 <!-- App Shell -->
@@ -42,3 +43,5 @@
 	<!-- Page Route Content -->
 	<slot />
 </AppShell>
+
+<Filters />
